@@ -121,13 +121,73 @@ a {
 }
 
 .rodape ul li a {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 
 }
 
 .rodape p {
     color: #fff;
     text-align: center;
+}
+
+.titulo_hospedagem{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(155, 72, 172);
+    margin: 30px;
+    padding: 20px;
+}
+
+.pesquisar{
+    font-size: 1.5rem;
+    color: rgba(155, 72, 172);
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 30px;
+   
+}
+
+.botao{
+    
+        font-size: 0.7rem;
+        text-decoration: none;
+        border: 1px solid  rgba(155, 72, 172);
+        margin: 10px 15px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgba(155, 72, 172);
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 1px;
+        transition: all 0.5s ease;
+        
+    
+    }
+    .botao:hover{
+        background-color: #fff;
+        color:  rgba(155, 72, 172);
+        border: 1px solid  rgba(155, 72, 172);
+     }
+
+.destino{
+    width: 300px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.check{
+    font-size: 1rem;
+    margin: 5px 5px;
+}
+.viagem{
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin: 10px 5px;
+    padding: 2px;
 }
 
 .destaques{
@@ -258,5 +318,48 @@ a {
         align-items: center;
         padding: 0 10px;
     
+}
+.titulo_hospedagem{
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(155, 72, 172);
+    margin: 30px;
+    padding: 20px;
+}
+
+.pesquisar{
+    font-size: 1.8rem;
+    color: rgba(155, 72, 172);
+    font-weight: 900;
+    display: flex;
+    text-align: center ;
+    flex-direction: column;
+    padding: 5px;
+    margin: 30px;
+   
+}
+
+
+.destino{
+    width: 300px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.check{
+    font-size: 1.8rem;
+    margin: 5px 5px;
+}
+.viagem{
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin: 10px 5px;
+    padding: 2px;
+}
+
+.destaques{
+    font-size: 1.8rem;
+    color: rgba(155, 72, 172);
+    text-align: center;
 }
 }
